@@ -1,0 +1,147 @@
+/* SECTION HERO  */
+.section_hero{
+    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 165px 150px 165px;
+}
+.section_hero--div{
+    background-color: #FAFAFA;
+
+    max-width: 445px;
+    margin-top: 250px;
+}
+.section_hero--div h1{
+    padding: 56px 28px 53px 28px;
+}
+.section_hero--button{
+    all: unset;
+    box-sizing: border-box;
+    background-color: #203A4C;
+    display: flex;
+}
+.section_hero--button:hover{
+    background-color: #5FB4A2;
+}
+.section_hero--button--texto{
+    padding: 17px 25px;
+}
+.section_hero--div a{
+    text-decoration: none;
+}
+.section_hero--button--texto{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.section_hero--button--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 16px;
+
+    background-color: #364D5D;
+}
+.section_hero--button--img:hover{
+    background-color: #55A292;
+}
+.section_hero--button--img img:hover{
+    filter: brightness(200%);
+}
+
+
+/* SECTION SOBRE */
+.section_sobre{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 165px 150px 165px;
+}
+.section_sobre img{
+    max-width: 540px;
+    min-height: 600px;
+}
+#section_sobre--div{
+    max-width: 430px;
+    margin-left: 140px;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid hsl(245, 10%, 22%, 0.15);
+    border-bottom: 1px solid hsl(245, 10%, 22%, 0.15);
+}
+#section_sobre--div h2{
+    margin-bottom: 28px;
+}
+#section_sobre--div p{
+    margin-bottom: 24px;
+}
+#section_sobre--div button{
+    all:unset;
+    box-sizing: border-box;
+    padding: 17px 28px;
+    border: 1px solid #33323D;
+}
+#section_sobre--div button:hover{
+    background-color: #33323D;
+}
+#section_sobre--div a{
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #33323D;
+}    
+#section_sobre--div a:hover{
+    color: #FAFAFA;
+}
+.section_sobre--div--centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SECTION CONTATO */
+.section_contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 165px 150px 165px;
+}
+.section_contato button{
+    all:unset;
+    box-sizing: border-box;
+    padding: 17px 50px;
+    border: 1px solid #33323D;
+}
+.section_contato button:hover{
+    background-color: #33323D;
+}
+.section_contato a{
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #33323D;
+}  
+.section_contato a:hover{
+    color: #FAFAFA;
+}
+.section_contato h2{
+    width: 370px;
+} 
