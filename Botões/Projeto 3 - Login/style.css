@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-color: #F8EFEF;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+
+    width: 610px;
+    padding: 64px 90px 56px 90px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+
+    font-family: 'Mulish', sans-serif;
+}
+h1{
+    margin-bottom: 15px;
+    
+    font-family: 'Rokkitt', serif; 
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #161843;
+}
+h2{
+    margin-bottom: 52px;
+    margin-right: 90px;
+
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #161843;
+}
+input{
+    all: unset;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-bottom: 16px;
+
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+}
+input::placeholder{
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #717A91;
+}
+input:focus{
+    border: 1px solid #26394F;
+}
+.card__login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #0C6787;
+}
+button{
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 35px;
+    border-radius: 5px;
+    
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    background: #046586;
+}
+button img{
+    margin-left: 14px;
+}
+span{
+    padding: 35px 0 30px 0;
+    border-top: 1px solid #CAD6E4;
+    
+    
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #838A9E;
+}
+.card__button--social{
+    padding: 10px 45px;
+    border: 1px solid #CAD6E4;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.card__button--social img{
+    margin: 0 11px 0 0;
+}
+.card__button--social:hover{
+    border: 1px solid #26394F;
+}
+.card__span--bottom{
+    padding: 0;
+    border: none;
+   
+    color: #000000;
+}
+.card__span--bottom a{
+    text-decoration-line: underline;
+
+    font-size: 14px;
+
+    color: #046586;
+}

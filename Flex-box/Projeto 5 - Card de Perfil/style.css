@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 106, 149, 0.1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-um, .card-dois{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.card-dois{
+    display: flex;
+
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 523px;
+    margin-bottom: 30px;
+}
+.cabeçalho-dois{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 143px;
+}
+.texto-imagem{
+    display: flex;
+    align-items: center;
+}
+.texto-imagem img{
+    width: 100px;
+    border: 8px solid #FFFFFF;
+    border-radius: 60%;
+    box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+}
+.cabeçalho-texto{
+    align-items: center;
+    margin-left: 29px;
+    color: #202142;
+}
+.cabeçalho-texto h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+}
+.cabeçalho-texto span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+}
+.botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 146px;
+    height: 54px;
+    border-radius: 10px;
+}
+.botão.escuro{
+    background: #202142;
+}
+.botão.claro{
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4CB;
+}
+.botão a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.botão.claro a{
+    color: #202142;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px; 
+}
+.imagens, .imagens-dois{
+    display: flex;
+    justify-content: space-between;
+}
+.imagens-dois{
+    width: 710px;
+}
+.imagens img{
+    border-radius: 10px;
+    width: 164px;
+} 
+.imagens-dois img{
+    width: 216px;
+}
+
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif; */

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    max-width: 350px;
+}
+
+.card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -50px;
+}
+
+.primeiroBloco{
+    flex-basis: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.primeiroBloco img{
+    border: 5px solid #FFFFFF;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.nomeIdade{
+    display: flex;
+    align-items: center; 
+}
+.nomeIdade h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #2E3349;
+}
+.nomeIdade span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7082;
+}
+
+.primeiroBloco p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7082;
+
+} 
+
+.segundoBloco{
+    border-top: 2px solid #E8E9EC;
+    min-width: 350px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 45px;
+}
+
+.dadosRedesSociais{
+    display: flex;
+    flex-direction: column;
+    color: #2E3349;
+    align-items: center;
+}
+
+.dadosRedesSociais h2{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dadosRedesSociais span{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}

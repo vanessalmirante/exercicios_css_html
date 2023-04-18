@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #456392;
+}
+
+div{
+    width: 608px;
+    height: 728px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin: 25% auto;
+    padding: 64px 162px 90px 162px;
+}
+img{
+    border: 15px solid #ECF3FC;
+    border-radius: 150px;
+    margin: 0; 
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    padding: 44px 0 5px 0;
+    color: #131E30;
+}
+
+h2{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 0 92px 0;
+    color: #131E30;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+
+}
+    

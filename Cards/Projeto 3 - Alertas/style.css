@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+div.fundo{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 432px;
+    height: 389px;  
+    text-align: center;
+    margin: 10% auto;
+    padding-top: 20px;
+    box-shadow: 0 10px 15px 0 #FFFFFF;
+}
+
+.fechar{
+margin-left: 372px; 
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 35px 53px 40px 52px;
+    margin: 0;
+    color: #000000;
+}
+
+p.paragrafoDois{
+    padding: 20px 115px 46px 114px;
+}
+
+div.botão {
+    background-color: #ED6755;
+    width: 201px;
+    height: 49px;
+    border-radius: 5px;
+    text-align: center;  
+    margin-left: 116px;
+    padding-top: 14px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0  #ED6755;
+}
+
+.botão.azul {
+    background-color:#1C1B5E;
+    box-shadow: 0 5px 10px 0  #1C1B5E;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.19%; 
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+

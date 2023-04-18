@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #E5E5E5;
+}
+
+div{
+    width: 536px;
+    height: 562px;
+    background: #FFFFFF;
+    box-shadow: 0px 44px 54px -30px rgba(171, 200, 250, 0.38);
+    border-radius: 15px;
+    margin: 30% auto;
+    padding: 75px 70px 50px 70px;
+
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0;
+    padding: 20px 0;
+}
+
+span{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #494949;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #494949;
+    margin: 0;
+    padding: 51px 0 10px 0;
+}
+
+.box{
+    width: 378px;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.box a{
+    background-color: #EFF5FF;
+    border-radius: 45px;    
+    padding: 9px 20px;
+    margin: 0 0 0 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E29FF;
+}
+
+
+.botão{
+    width: 141px;
+    height: 48px;
+    background: #000000;
+    border-radius: 10px;
+    margin: 32px 0 0 0;
+    padding: 11px 32px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: none;    
+}

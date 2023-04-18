@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;;
+}
+
+div{
+    width: 505px;
+    height: 510px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -20px #D4DCF3;
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 84px 97px 65px 85px;
+}
+p.aspas{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 36px;
+    color: #101439;
+    margin:0;
+    padding: 0;
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #101439;
+    padding: 5px 0 38px 0;
+    margin: 0;
+}
+p.nome{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #101439;
+    padding: 0;
+    margin: 0;
+}
+
+div.card2{
+    width: 431px;
+    height: 391px;
+    background: #101439;
+    box-shadow: 0px 15px 30px -20px #D4DCF3;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+p.nome.branco{
+    color: #FFFFFF;
+    padding: 0;
+}
+
+p.branco{
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 10px 0 13px 0;
+}
+
+p.nome.branco.centro{
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding-bottom: 55px;
+}
+
+div.botão{
+    width: 311px;
+    height: 77px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0;
+    padding: 25px 101px;
+    text-align: center;
+    box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101439;
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.botãoFechar{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardMaior{
+    display: flex;
+    flex-direction: column;
+    min-height: 470px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 26px 26px;
+    max-width: 519px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+    border-radius: 15px;
+    margin-right: 58px;
+}
+.cardCentralizado{
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 11px 45px;
+}
+.cardCentralizado h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212D59;
+}
+.emojis{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.emoji{
+    display: flex;
+    flex-direction: column;
+    min-height: 90px;
+    justify-content: space-between;
+    text-align: center;
+}
+.emoji img{
+    max-width: 60px;
+}
+.emoji span{    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212D59;
+    opacity: 0.5;
+}
+.botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2D2C;
+    width: 208px;
+    height: 55px;
+    border-radius: 5px; 
+}
+.botão a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.cardMenor{
+    display: flex;
+    flex-direction: column;
+    min-height: 370px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 26px 26px;
+    max-width: 402px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+    border-radius: 15px;
+    margin-right: 58px;
+}
+.cardCentralizado.menor{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 11px 45px;
+}
+
+.cardCentralizado.menor p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+}
+.botões{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+.branco{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    opacity: 0.5;
+}
+.preto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2D2C;
+    width: 132px;
+    height: 55px;
+    border-radius: 5px; 
+}
+.preto a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
